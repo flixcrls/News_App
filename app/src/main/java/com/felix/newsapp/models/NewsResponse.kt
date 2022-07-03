@@ -1,6 +1,7 @@
-package com.felix.newsapp
+package com.felix.newsapp.models
 
 
+import com.felix.newsapp.models.Article
 import com.google.gson.annotations.SerializedName
 
 data class NewsResponse(

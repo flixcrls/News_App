@@ -1,4 +1,4 @@
-package com.felix.newsapp
+package com.felix.newsapp.models
 
 
 import com.google.gson.annotations.SerializedName

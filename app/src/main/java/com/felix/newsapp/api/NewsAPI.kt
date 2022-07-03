@@ -1,6 +1,6 @@
 package com.felix.newsapp.api
 
-import com.felix.newsapp.NewsResponse
+import com.felix.newsapp.models.NewsResponse
 import com.felix.newsapp.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
