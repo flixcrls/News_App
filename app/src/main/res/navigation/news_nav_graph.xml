@@ -7,7 +7,11 @@
     <fragment
         android:id="@+id/articleFragment"
         android:name="com.felix.newsapp.ui.fragment.ArticleFragment"
-        android:label="ArticleFragment" />
+        android:label="ArticleFragment" >
+        <argument
+            android:name="article"
+            app:argType="com.felix.newsapp.models.Article" />
+    </fragment>
     <fragment
         android:id="@+id/breakingNewsFragment"
         android:name="com.felix.newsapp.ui.fragment.BreakingNewsFragment"
@@ -18,7 +22,7 @@
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_in_right"/>
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/savedNewsFragment"
@@ -30,7 +34,7 @@
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_in_right"/>
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/searchNewsFragment"
@@ -42,6 +46,6 @@
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_in_right"/>
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
 </navigation>
